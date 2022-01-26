@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Novedades Jair </title>
+
+    <link rel="shortcut icon" type="image/png" href="Imagenes/logo.png">
+
+    <!-- SLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- FUENTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Rubik+Beastly&display=swap" rel="stylesheet"> 
+
+    <!-- ICONOS -->
+    <script src="https://kit.fontawesome.com/1ee22afc5d.js" crossorigin="anonymous"></script>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="Css/InicioenCss.css">
+</head>
+<body>
+    <div class="todo">
+        <!-- BANNER -->
+        <div>
+            <header>
+                <div class="titulo">
+                    <h1> Novedades Jair </h1>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="activador"> Inicio </a>
+                        </li>
+
+                        <li>
+                            <a href="01Proyecto/02Blusas/Blusas.html"> Blusas </a>
+                        </li>
+
+                        <li>
+                            <a href="01Proyecto/03Pantalones/Pantalones.html"> Pantalones </a>
+                        </li>
+
+                        <li>
+                            <a href="01Proyecto/04Sandalias/Sandalias.html"> Sandalias </a>
+                        </li>
+
+                        <li>
+                            <a href="01Proyecto/05Vestidos/Vestidos.html"> Vestidos </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- SLIDER - IMG -->
+
+        <div class="Slider">
+            <ul class="slider1">
+                <li>
+                    <img loading="lazy" src="Imagenes/1.jpg" alt="Imagan1">
+                </li>
+
+                <li>
+                    <img loading="lazy" src="Imagenes/2.jpg" alt="Imagan2">
+                </li>
+            </ul>
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer class="envios">
+            <div>
+                <a href="#"> Envios a todo el Puyo </a>
+            </div>
+        </footer>
+
+        <footer class="footer-2">
+
+            <div class="redesSociales">
+                <p> Redes Sociales: </p>
+                <a href="https://www.facebook.com/Bellezas-de-mujer-102069191505565" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="politicas">
+                <p> Politicas: </p>
+            <a href="#"> Polìticas de Privacidad, Terminos y Condiciones </a>
+            </div>
+
+            <div class="tiendas">
+                <p> Tiendas: </p>
+            <a href="https://goo.gl/maps/Vu6UzjbixnDd5Q2i7" target="_blank"> Puyo - Pastaza - Ecuador </a>
+            </div>
+
+        </footer>
+
+    <!-- FINAL DE TODO -->
+
+    </div>
+
+    <!-- SCRIPTS -->
+
+    <script>
+        $(document).ready(function(){
+          $('.slider1').bxSlider({
+            mode: 'fade',
+          });
+          $('.slider2').bxSlider({
+            mode: 'fade',
+          });
+        });
+    </script>
+    
+</body>
+</html>
